@@ -1,0 +1,18 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Intro from "../sections/hero/Intro.astro";
+import Smilling from "../sections/hero/Smilling.astro";
+import Care from "../sections/care/Care.astro";
+import Saying from "../sections/saying/Saying.astro";
+---
+
+<body>
+  <Layout title="Welcome to Astro.">
+    <main class="mx-auto flex-col w-full h-[60rem] flex items-center md:gap-40 mt-40 py-20 rounded-md">
+      <Intro />
+      <Smilling />
+    </main>
+    <Care />
+    <Saying />
+  </Layout>
+</body>
