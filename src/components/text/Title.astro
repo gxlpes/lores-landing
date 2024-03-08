@@ -1,6 +1,6 @@
 ---
-const { slot, centered } = Astro.props;
+const { slot, centered, style } = Astro.props;
 const align = centered ? "text-center" : null;
 ---
 
-<h1 class=`text-4xl md:text-7xl tracking-tighter font-black ${align}`><slot /></h1>
+<h1 class=`text-4xl md:text-7xl tracking-tighter font-nexa font-black ${align} ${style}`><slot /></h1>
